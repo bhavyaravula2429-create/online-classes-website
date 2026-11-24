@@ -1,0 +1,423 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkillSphere | Online Learning</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- NAVIGATION -->
+<header>
+    <nav>
+        <h2 class="logo">SkillSphere<span>.</span></h2>
+
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#instructors">Instructors</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+        </ul>
+
+        <a href="#courses" class="nav-btn">Explore Courses</a>
+    </nav>
+</header>
+
+
+<!-- HERO SECTION -->
+<section id="home" class="hero">
+
+    <div class="hero-content">
+        <p class="tag">LEARN SOMETHING NEW EVERY DAY</p>
+
+        <h1>
+            Unlock Your Potential With
+            <span>Online Learning</span>
+        </h1>
+
+        <p>
+            Discover new skills, learn from experts and
+            build a better future with SkillSphere.
+        </p>
+
+        <a href="#courses" class="btn">Explore Courses →</a>
+    </div>
+
+    <div class="hero-art">
+        <img
+            src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800"
+            alt="Students studying together">
+    </div>
+
+</section>
+
+
+<!-- STATISTICS -->
+<section class="stats">
+
+    <div>
+        <h2>50+</h2>
+        <p>Courses</p>
+    </div>
+
+    <div>
+        <h2>20+</h2>
+        <p>Expert Instructors</p>
+    </div>
+
+    <div>
+        <h2>5K+</h2>
+        <p>Learners</p>
+    </div>
+
+    <div>
+        <h2>100%</h2>
+        <p>Learning Focus</p>
+    </div>
+
+</section>
+
+
+<!-- COURSES SECTION -->
+<section id="courses">
+
+    <p class="tag">EXPLORE AND LEARN</p>
+
+    <h2 class="section-title">Popular Courses</h2>
+
+    <p class="subtitle">
+        Find the perfect course to develop your skills.
+    </p>
+
+    <div class="course-container">
+
+        <!-- COURSE 1 -->
+        <div class="course-card">
+
+            <div class="course-img">
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=600"
+                     alt="Programming and computer learning">
+            </div>
+
+            <div class="course-info">
+                <span class="category">PROGRAMMING</span>
+
+                <h3>Python for Beginners</h3>
+
+                <p>
+                    Learn Python fundamentals and start coding
+                    with practical examples.
+                </p>
+
+                <div class="course-bottom">
+                    <span>⭐ 4.8 | Beginner</span>
+                    <button onclick="enroll('Python for Beginners')">
+                        Enroll
+                    </button>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- COURSE 2 -->
+        <div class="course-card">
+
+            <div class="course-img">
+                <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=600"
+                     alt="Creative UI UX design workspace">
+            </div>
+
+            <div class="course-info">
+                <span class="category">DESIGN</span>
+
+                <h3>UI/UX Design</h3>
+
+                <p>
+                    Explore creative design and learn
+                    to create user-friendly experiences.
+                </p>
+
+                <div class="course-bottom">
+                    <span>⭐ 4.9 | Beginner</span>
+                    <button onclick="enroll('UI/UX Design')">
+                        Enroll
+                    </button>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- COURSE 3 -->
+        <div class="course-card">
+
+            <div class="course-img">
+                <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600"
+                     alt="Web development workspace">
+            </div>
+
+            <div class="course-info">
+                <span class="category">DEVELOPMENT</span>
+
+                <h3>Web Development</h3>
+
+                <p>
+                    Build beautiful websites using
+                    modern web technologies.
+                </p>
+
+                <div class="course-bottom">
+                    <span>⭐ 4.7 | Intermediate</span>
+                    <button onclick="enroll('Web Development')">
+                        Enroll
+                    </button>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- COURSE 4 -->
+        <div class="course-card">
+
+            <div class="course-img">
+                <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=600"
+                     alt="Artificial intelligence technology">
+            </div>
+
+            <div class="course-info">
+                <span class="category">TECHNOLOGY</span>
+
+                <h3>Artificial Intelligence</h3>
+
+                <p>
+                    Discover AI concepts and explore
+                    modern technological applications.
+                </p>
+
+                <div class="course-bottom">
+                    <span>⭐ 4.9 | Intermediate</span>
+                    <button onclick="enroll('Artificial Intelligence')">
+                        Enroll
+                    </button>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- COURSE 5 -->
+        <div class="course-card">
+
+            <div class="course-img">
+                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600"
+                     alt="Data analytics dashboard">
+            </div>
+
+            <div class="course-info">
+                <span class="category">ANALYTICS</span>
+
+                <h3>Data Science</h3>
+
+                <p>
+                    Understand data, analyze information
+                    and discover useful insights.
+                </p>
+
+                <div class="course-bottom">
+                    <span>⭐ 4.8 | Intermediate</span>
+                    <button onclick="enroll('Data Science')">
+                        Enroll
+                    </button>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- COURSE 6 -->
+        <div class="course-card">
+
+            <div class="course-img">
+                <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600"
+                     alt="Digital marketing analytics">
+            </div>
+
+            <div class="course-info">
+                <span class="category">BUSINESS</span>
+
+                <h3>Digital Marketing</h3>
+
+                <p>
+                    Learn digital marketing strategies
+                    and develop valuable business skills.
+                </p>
+
+                <div class="course-bottom">
+                    <span>⭐ 4.6 | Beginner</span>
+                    <button onclick="enroll('Digital Marketing')">
+                        Enroll
+                    </button>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- INSTRUCTORS SECTION -->
+<section id="instructors" class="instructors">
+
+    <p class="tag">MEET THE EXPERTS</p>
+
+    <h2 class="section-title">Our Instructors</h2>
+
+    <p class="subtitle">
+        Learn from experienced professionals and passionate educators.
+    </p>
+
+    <div class="instructor-container">
+
+        <div class="instructor">
+
+            <div class="avatar">
+                <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=300"
+                     alt="Instructor Sophia">
+            </div>
+
+            <h3>Sophia Lee</h3>
+            <p>Programming Expert</p>
+
+        </div>
+
+
+        <div class="instructor">
+
+            <div class="avatar">
+                <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300"
+                     alt="Instructor Emma">
+            </div>
+
+            <h3>Emma Wilson</h3>
+            <p>UI/UX Designer</p>
+
+        </div>
+
+
+        <div class="instructor">
+
+            <div class="avatar">
+                <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?w=300"
+                     alt="Instructor Olivia">
+            </div>
+
+            <h3>Olivia Martin</h3>
+            <p>Technology Educator</p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- REVIEWS SECTION -->
+<section id="reviews">
+
+    <p class="tag">STUDENT EXPERIENCES</p>
+
+    <h2 class="section-title">What Learners Say</h2>
+
+    <p class="subtitle">
+        Discover how learning can make a difference.
+    </p>
+
+    <div class="review-container">
+
+        <div class="review">
+
+            <h3>⭐⭐⭐⭐⭐</h3>
+
+            <p>
+                "The courses are easy to understand
+                and well organized."
+            </p>
+
+            <h4>— Emma</h4>
+
+        </div>
+
+
+        <div class="review">
+
+            <h3>⭐⭐⭐⭐⭐</h3>
+
+            <p>
+                "A wonderful platform to explore
+                new skills and technologies."
+            </p>
+
+            <h4>— James</h4>
+
+        </div>
+
+
+        <div class="review">
+
+            <h3>⭐⭐⭐⭐⭐</h3>
+
+            <p>
+                "Learning has become more interesting
+                and enjoyable."
+            </p>
+
+            <h4>— Olivia</h4>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- CALL TO ACTION -->
+<section class="cta">
+
+    <h2>Ready to Start Your Learning Journey?</h2>
+
+    <p>
+        Explore new possibilities and invest in your future.
+    </p>
+
+    <a href="#courses" class="btn">
+        Start Learning Today
+    </a>
+
+</section>
+
+
+<!-- FOOTER -->
+<footer>
+
+    <h2>SkillSphere.</h2>
+
+    <p>Learn Today. Lead Tomorrow.</p>
+
+    <p>
+        © 2026 SkillSphere | All Rights Reserved
+    </p>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
